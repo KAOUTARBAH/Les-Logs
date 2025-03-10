@@ -33,11 +33,11 @@ systemctl status apache2
 
 Les logs d'Apache sont déjà configurés par défaut, mais vous pouvez les personnaliser si nécessaire.
 
-## 🔹 Fichiers de logs par défaut :
+#### 🔹 Fichiers de logs par défaut :
 - **Logs d'accès** : `/var/log/apache2/access.log`
 - **Logs d'erreurs** : `/var/log/apache2/error.log`
 
-## 🔹 Vérifier ou personnaliser la configuration des logs
+#### 🔹 Vérifier ou personnaliser la configuration des logs
 Pour vérifier ou personnaliser la configuration des logs, vous pouvez éditer les fichiers de configuration d'Apache.
 
 ### Modifier les logs (facultatif) :
@@ -85,7 +85,7 @@ for i in {1..50}; do curl -s http://localhost > /dev/null; done
 ```
 cat /var/log/apache2/access.log | tail -n 50
 
-### 3. Analyser les logs générés
+### 4. Analyser les logs générés
 
 #### 🔹 Requêtes réussies (code 200)
 Pour rechercher les requêtes ayant renvoyé le code **200** (succès) dans le fichier `access.log`, exécutez cette commande :
