@@ -80,6 +80,7 @@ Ce dépôt contient une vue personnalisée pour l'Event Viewer sur Windows Serve
   - 409 : Erreur de résolution de nom
   - 501-502 : Échec de chargement de zone
   - 6001-6002 : Problèmes de réplication DNS
+  
 ![log-dns](https://github.com/KAOUTARBAH/Les-Logs/blob/main/images/log-dns.png)
 
 ## Instructions
