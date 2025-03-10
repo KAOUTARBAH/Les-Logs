@@ -64,4 +64,4 @@ Une fois la vue personnalisée configurée, voici comment l'exporter :
 ### 6. Ajouter le fichier XML sur GitHub
 - Créez un dépôt sur **GitHub** . "https://github.com/KAOUTARBAH/Les-Logs/blob/main/obs-evenement-win.md".
 
-- Ajouter le fichier `DNS_Events_View.xml` dans ce dépôt.
+- Ajouter le fichier `DNS_Events_View.xml` dans ce dépôt. "https://github.com/KAOUTARBAH/Les-Logs/blob/main/DNS_Events_View.xml" .
