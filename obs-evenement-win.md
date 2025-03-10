@@ -71,6 +71,7 @@ Une fois la vue personnalisée configurée, voici comment l'exporter :
 Ce dépôt contient une vue personnalisée pour l'Event Viewer sur Windows Server afin de surveiller les événements liés au service DNS et son état.
 
 ![log-dns](https://github.com/KAOUTARBAH/Les-Logs/blob/main/images/log-dns.png)
+![test-vpn](https://github.com/KAOUTARBAH/pfSense/blob/main/imagesVPN/test-vpn.png)
 
 ## Critères de la vue personnalisée :
 - Niveaux surveillés : Critique, Erreur, Avertissement, Information
