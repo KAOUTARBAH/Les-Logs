@@ -53,38 +53,15 @@ Dans l'Event Viewer, suivez ces étapes pour créer une vue personnalisée en fo
 - La nouvelle vue devrait apparaître sous **Custom Views** (Vues personnalisées) dans l'Event Viewer.
 
 ![log-dns](https://github.com/KAOUTARBAH/Les-Logs/blob/main/images/log-dns.png)
-![test-vpn](https://github.com/KAOUTARBAH/pfSense/blob/main/imagesVPN/test-vpn.png)
 
 ### 5. Exporter la vue au format XML
 Une fois la vue personnalisée configurée, voici comment l'exporter :
 
-- Cliquez avec le bouton droit sur la vue personnalisée que vous venez de créer sous **Custom Views**.
+- Cliquez avec le bouton droit sur la vue personnalisée que vous venez de créer sous **Custom Views** (Vues personnalisées.
 - Sélectionnez **Export Custom View...**.
 - Sauvegardez le fichier XML sur votre ordinateur, par exemple sous le nom `DNS_Events_View.xml`.
 
 ### 6. Ajouter le fichier XML sur GitHub
-- Créez un dépôt sur **GitHub** (ou utilisez un dépôt existant).
-- Téléversez le fichier `DNS_Events_View.xml` dans ce dépôt.
-- Créez un fichier `README.md` pour expliquer la vue personnalisée.
+- Créez un dépôt sur **GitHub** . "https://github.com/KAOUTARBAH/Les-Logs/blob/main/obs-evenement-win.md".
 
-#### Exemple de contenu pour le README :
-```markdown
-# Vue personnalisée pour les événements DNS
-
-Ce dépôt contient une vue personnalisée pour l'Event Viewer sur Windows Server afin de surveiller les événements liés au service DNS et son état.
-
-
-## Critères de la vue personnalisée :
-- Niveaux surveillés : Critique, Erreur, Avertissement, Information
-- Sources d'événements : DNS-Server-Service, DNS Client Events
-- Événements surveillés :
-  - 2 : Démarrage du serveur DNS
-  - 4 : Arrêt du serveur DNS
-  - 409 : Erreur de résolution de nom
-  - 501-502 : Échec de chargement de zone
-  - 6001-6002 : Problèmes de réplication DNS
-
-
-## Instructions
-1. Téléchargez le fichier XML.
-2. Importez-le dans l'Event Viewer en cliquant sur **Import Custom View**.
+- Ajouter le fichier `DNS_Events_View.xml` dans ce dépôt.
